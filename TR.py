@@ -41,44 +41,11 @@ os.system('clear')
 os.system('xdg-open https://youtu.be/tiBWaQNfVpU?si=rMvcIxQk5RpoBnaT')
 os.system('xdg-open https://chat.whatsapp.com/JX01XMReYrYBsQSrS1IL8N')
 
-import os, sys
-
-# Tumhara WhatsApp channel link
-channel_link = "https://whatsapp.com/channel/0029Vb6MP4AEKyZKn4g8az12"
-
-# Valid keys (channel par available hogi)
-approved_keys = ["TR.26"]
-
-def first_step():
-    os.system("clear")
-    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    print("        🔒 RAJA CLONER 420 Script Locked 🔒")
-    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n")
-    print("\033[1;32m SUCRIBE YOUTUBE  CHANNEL ✅ \033[0m\n")
-    print("\033[1;32m KEY APKO WHATSAPP SA MILY GI ✅ \033[0m\n")
-    print("[!] Pehle WhatsApp Channel par join karo.")
-    print(f"[+] Channel Link: {channel_link}\n")
-
     # Yeh direct WhatsApp channel open karega
     os.system(f"xdg-open {channel_link}")
 
     input("\n[↩] Jab join kar lo tab Enter dabao...")
-
-def check_key():
-    user_key = input("\n[?] Enter your key: ")
-    if user_key in approved_keys:
-        print("\n[✓] Key approved! Script is running...\n")
-    else:
-        print("\n[] Invalid key! Dobara Channel par jao.")
-        sys.exit()
-
-# Pehle channel open hoga
-first_step()
-
-# Phir key check hoga
-check_key()
-
-# Tool ka main code yahan likho
+    
 print(">>> Tool Successfully Unlocked <<<")
 #----------------------------[AUTO OPEN LINKS]----------------------------#
 # Open YouTube, Telegram, WhatsApp
